@@ -12,9 +12,11 @@ This is a simple script taht alllows capturing and emailing a photograph from th
 	auth    [default=ignore]                pam_exec.so /usr/local/bin/capture_and_email.py
 </pre>
 </ol>
+<s>
 <h3>.Usage (on OS X):</h3>
 <li>install pythin3 using homeberew (brew install homebrew) - I cannot beelieve OSX does not have python3 by default
 <li>install imagesnap utility using homeberew (brew install imagesnap)
 <li>Copy and configure the script (same as in linux version); use osx config template
 <li>Copy the log monitoring scipt into your /System/Library/StartupItems/: cp monitor_login.sh.osx /System/Library/StartupItems/monitor_login.sh
-</ol>
+</ol
+</s> - sorry, it is a bit trickier for MacOS X. MacOS has securitty restrictions taht pprevent an app to connect to window server before login. 
