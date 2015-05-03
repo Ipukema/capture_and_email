@@ -1,6 +1,6 @@
 snapshot_command = dict(
     command='/usr/local/bin/imagesnap',
-    arguments_template='{}',
+    arguments_template='-w 1.0 {}',
     filename_template='/var/log/camera/camera-{}.jpg'
 )
 
