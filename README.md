@@ -1,4 +1,4 @@
-This is a simple script atht alllows capturing and emailing a photograph from the laptop's built-in camera.
+This is a simple script taht alllows capturing and emailing a photograph from the laptop's built-in camera on a failed login attempt.
 <br>
 Usage:
 <ol>
