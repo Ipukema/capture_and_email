@@ -1,0 +1,12 @@
+snapshot_command = dict(
+    command='/usr/bin/streamer',
+    arguments_template='-f jpeg -o {}',
+    filename_template='/var/log/camera/camera-{}.jpeg'
+)
+
+email_config = dict(
+    server='smtp.gmail.com:587',
+    username='***@gmail.com',
+    password='base64(***)',
+    addressee='***@gmail.com'
+)
