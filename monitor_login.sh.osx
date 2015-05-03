@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Place in your /System/Library/StartupItems/
+#
+(nohup tail -f /var/log/authd.log | awk '/Failed to authorize right '\''system.login.fus'\'' by client '\''\/System\/Library\/CoreServices\/loginwindow.app'\''/ { system("/usr/local/bin/capture_and_email.py") }') &
